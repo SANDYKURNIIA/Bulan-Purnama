@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <style>
+      .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        background-color: #191919;
+      }
+      .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: linear-gradient(
+          to bottom,
+          #b5081b 0%,
+          #b5081b 50%,
+          transparent 50%,
+          transparent 50%,
+          #b5081b 50%,
+          #b5081b 80%,
+          transparent 10%,
+          transparent 100%
+        );
+        background-size: 100% 55px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle"></div>
+    </div>
+  </body>
+</html>
